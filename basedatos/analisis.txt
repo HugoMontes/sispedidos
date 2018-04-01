@@ -1,0 +1,11 @@
+Hola Miguel, disculpas por el retraso, tuve algunos contratiempos, este es el esquema de la base de datos y lo que entiendo del sistema: 
+
+ANALISIS:
+
+Una farmacia es un cliente
+Un cliente/farmacia realiza un pedido
+Un pedido esta compuesto por varios productos
+
+El proyecto lo estoy desarrollando en Laravel
+
+Espeo tu visto bueno para continuar.
