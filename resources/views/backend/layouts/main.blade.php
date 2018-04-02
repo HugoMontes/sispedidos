@@ -43,6 +43,7 @@
               <div class="row">
                   <div class="col-lg-12">
                       <h2 class="page-header">@yield('title', 'SISTEMA DE PEDIDOS')</h2>
+                      @include('flash::message')
                       @yield('content')
                   </div>
                   <!-- /.col-lg-12 -->
@@ -52,7 +53,6 @@
           <!-- /.container-fluid -->
       </div>
       <!-- /#page-wrapper -->
-
   </div>
   <!-- /#wrapper -->
 
@@ -67,7 +67,7 @@
 
   <!-- Custom Theme JavaScript -->
   {!! Html::script('backend/dist/js/sb-admin-2.js') !!}
-
+  @yield('javascript')
 </body>
 
 </html>
